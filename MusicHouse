@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body, h1,h2,h3,h4,h5,h6 {font-family: "Marzo", sans-serif}
+    .w3-row-padding img {margin-bottom: 12px}
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {width: 120px;background: #222;}
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {margin-left: 120px}
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
+  </head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Etusivu</p>
+
+  <a href="#instrumentaalit" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-music w3-xxlarge"></i>
+    <p>Instrumentaalit</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>Yhteydenotto
+    </p>
+  </a>
+</nav>
+
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">MUSICHOUSE</span> </h1>
+    <p>
+      
+    </p>
+    <img src="./Kuva1.png" alt="boy" class="w3-image" width="980" height="932">  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Instrumentaalit, jotka muuttavat käsityksesi musiikista</h2>
+   <div class="music-player">
+
+    <title>Advanced Music Player</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <div class="music-player">
+ 
+        </div>
+        <h1 id="Cool Musiikki">Instrumentaalit</h1>
+        <div class="player-controls">
+            <button id="playBtn">Toista</button>
+            <button id="pauseBtn">Tauko</button>
+            <button id="prevBtn">Aiempi</button>
+            <button id="nextBtn">Seuraava</button>
+        </div> 
+        <div class="playlist">
+            <ul>
+                <li audio-src="" audio-artwork="" data-title="Track 1">Tuotanto 1</li>
+                <li audio-src="Musiikki 2.mp3" data-artwork="album2.jpg" data-title="Track 2">Tuotanto 2</li>
+                <li audio-src="" data-artwork="album3.jpg" data-title="Track 3">Tuotanto 3</li>
+                <!-- Add more track items as needed -->
+            </ul>
+        </div>
+        <audio id="audioPlayer" src="music.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Ota yhteyttä</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Suomi / Finland </p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Puh. +358xxxxxx58</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Sähköposti: musichouse1@musichouse.fi</p>
+    </div><br>
+    <p>Ota yhteyttä, kirjoita viesti:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Nimi" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Sähköposti" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Aihe" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Viesti" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> Lähetä yhteydenottopyyntö
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+<article> <base> WWW -sivuston toteutus
